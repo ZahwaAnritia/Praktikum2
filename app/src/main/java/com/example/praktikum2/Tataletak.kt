@@ -21,6 +21,15 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.core.graphics.ColorUtils
 
-
+@Composable
+fun TataletakColumn(modifier: Modifier) {
+    Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
 
